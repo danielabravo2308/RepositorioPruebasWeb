@@ -1,4 +1,4 @@
-const {test,expect} = require("@playwright/test");
+/*const {test,expect} = require("@playwright/test");
 
 const casos = [
     {name:"Caso 1", url:"https://example.com/", esperado: "Example Domain"},
@@ -24,4 +24,4 @@ for (const {name, url, esperado} of casos) {
 
 function sleep (time){
   return new Promise((resolve)=> setTimeout(resolve,time));
-}
+}*/

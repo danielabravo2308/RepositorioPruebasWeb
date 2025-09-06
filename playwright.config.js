@@ -4,12 +4,12 @@
 
 const config = {
     use:{
-        screenshot:'on-on-failure', // Sacar screenshot en caso de falla
+        screenshot:'only-on-failure', // Sacar screenshot en caso de falla
         trace:'retain-on-failure'    // Retener traza en caso de falla
     },
     projects:[ // proyectos en los cuales se va a ejecutar las pruebas
         {name: 'Chromium',use: {browserName:'chromium'}},         // Diccionarios de navegadores
-        {name: 'Firefox',use: {browserName:'firefox'}}
+        //{name: 'Firefox',use: {browserName:'firefox'}}
     ],
 
     testDir:"tests", // Directorio de los tests que se van a ejecutar

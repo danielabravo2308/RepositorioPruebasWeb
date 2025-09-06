@@ -8,7 +8,7 @@ test('valida el titulo exacto', async({page})=> {
   await sleep(5000); 
 
   // Verificacion del titulo exacto
-  await expect(page).toHaveTitle('Example Domain')
+  await expect(page).toHaveTitle('Exampre Domain')
 
 });
 
