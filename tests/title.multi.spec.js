@@ -1,4 +1,4 @@
-const {test,expect} = require('@playwright/test')
+const {test,expect} = require("@playwright/test");
 
 const casos = [
     {name:"Caso 1", url:"https://example.com/", esperado: "Example Domain"},
@@ -14,9 +14,10 @@ for (const {name, url, esperado} of casos) {
     test(`valida el titulo correcto en ${name}`,async ({page}) => {
         // Abre la pagina example.com
         await page.goto(url);
-        await sleep(3000);
+        //  ejecuta por 3 seg la pagina 
+        await sleep(3000); 
 
-        //Verifiacion del titulo exacto
+        //Verificacion del titulo exacto
         await expect(page).toHaveTitle(esperado);
     });
 }
