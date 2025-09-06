@@ -9,7 +9,7 @@ const config = {
     },
     projects:[ // proyectos en los cuales se va a ejecutar las pruebas
         {name: 'Chromium',use: {browserName:'chromium'}},         // Diccionarios de navegadores
-        //{name: 'Firefox',use: {browserName:'firefox'}}
+        {name: 'Firefox',use: {browserName:'firefox'}}
     ],
 
     testDir:"tests", // Directorio de los tests que se van a ejecutar
