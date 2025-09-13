@@ -1,4 +1,4 @@
-# Primera Clase : Pruebas con Python y Node Js
+# Segunda Clase : Pruebas con Python y Node Js
 
 A continuacion se usaron los siguientes comandos de instalacion y comnados de ejecucion:
 
