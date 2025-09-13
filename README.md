@@ -1,6 +1,6 @@
 # Primera Clase : Pruebas con Python y Node Js
 
-Mi primera vez con la Repos xD
+A continuacion se usaron los siguientes comandos de instalacion y comnados de ejecucion:
 
 1. crear archivo package.json que contiene las dependencias
 
