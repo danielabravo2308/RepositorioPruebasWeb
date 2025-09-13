@@ -1,4 +1,4 @@
-# Clase 2 : Implementacion de Test Cases con Node JS y JavaScripts
+# Clase 2 : Implementacion de Test Cases con Node JS - JavaScripts - Framework Playwright
 
 
 Comandos de Instalacion
