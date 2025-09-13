@@ -1,6 +1,5 @@
-# Clase 2
+# Clase 2 : Implementacion de Test Cases con Node JS y JavaScripts
 
-Implementacion de Test Cases con Node JS y JavaScripts
 
 Comandos de Instalacion
 
